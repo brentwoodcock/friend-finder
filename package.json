@@ -1,0 +1,23 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "This app will ask a user a series of questions then, depending on their answers, match them with another user who gave similar responses.",
+  "main": "app/public/home.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brentwoodcock/friend-finder.git"
+  },
+  "author": "Brent Woodcock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brentwoodcock/friend-finder/issues"
+  },
+  "homepage": "https://github.com/brentwoodcock/friend-finder#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
